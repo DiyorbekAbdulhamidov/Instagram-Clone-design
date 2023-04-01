@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #FAFAFA;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header {
+    width: 100%;
+    max-width: 935px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.logo {
+    width: 103px;
+    height: 29px;
+}
+
+.search input {
+    width: 215px;
+    height: 36px;
+    border: none;
+    padding: 4px 0px;
+    background: #FAFAFA;
+    border-radius: 6px;
+    text-align: center;
+    border: solid 2px #DBDBDB;
+    color: #8E8E8E;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    left: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 23px;
+    cursor: pointer;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 1px solid #DBDBDB;
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 935px;
+    height: auto;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.followers {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-left: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 60px;
+}
+
+.first p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 32px;
+    color: #262626;
+}
+
+.first button {
+    width: 90px;
+    height: 30px;
+    background: #0095F6;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.second p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+
+}
+
+.third p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.aktual {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 80px;
+}
+
+.aktual img {
+    width: 77px;
+    height: 77px;
+}
+
+.ak1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userpost {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.txt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: gray;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
