@@ -392,3 +392,39 @@ header {
     padding-left: 5px;
     text-decoration: none;
 }
+/* ERROR */
+/* .texx p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 11px;
+    text-transform: lowercase;
+    color: #262626;
+}
+
+.texx span {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    color: #8E8E8E;
+}
+
+.footerSecondary {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerSecondary a {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: capitalize;
+    color: #C7C7C7;
+    padding-left: 5px;
+    text-decoration: none;
+} */
